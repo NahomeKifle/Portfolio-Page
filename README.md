@@ -1,3 +1,19 @@
+## Nahome Kifle — Personal Portfolio Website
+
+This repository hosts my personal portfolio website. It is built with Next.js and TailwindCSS and customized from the open-source React Portfolio Template to showcase my projects, services, resume, and blog.
+
+---
+
+
+
+
+
+
+
+
+
+
+
 ![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
 ### Live - https://react-portfolio-template.netlify.app
