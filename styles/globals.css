@@ -75,3 +75,28 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+/* Floating Image Animation */
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home-img img {
+  width: 25vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .home-img img {
+    width: 70vw;
+    margin-top: 4rem;
+  }
+}

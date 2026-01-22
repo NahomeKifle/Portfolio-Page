@@ -22,22 +22,30 @@ const Resume = () => {
       router.push("/");
     }
   }, []);
+
+  const handleContactScroll = () => {
+    router.push("/").then(() => {
+      setTimeout(() => {
+        const contactSection = document.querySelector('[data-contact-section]');
+        if (contactSection) {
+          window.scrollTo({
+            top: contactSection.offsetTop,
+            left: 0,
+            behavior: "smooth",
+          });
+        }
+      }, 100);
+    });
+  };
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
-        <div className="fixed bottom-6 right-6">
-          <Button onClick={() => router.push("/edit")} type={"primary"}>
-            Edit Resume
-          </Button>
-        </div>
-      )}
       {data.showCursor && <Cursor />}
       <div
         className={`container mx-auto mb-10 ${
           data.showCursor && "cursor-none"
         }`}
       >
-        <Header isBlog />
+        <Header isBlog handleContactScroll={handleContactScroll} />
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
@@ -50,6 +58,11 @@ const Resume = () => {
               <h2 className="w-4/5 text-xl mt-5 opacity-50">
                 {resume.description}
               </h2>
+              <div className="mt-5">
+                <a href="/Resume_swe.pdf" download="Nahome_Kifle_Resume.pdf">
+                  <Button type="primary">Download Resume</Button>
+                </a>
+              </div>
               <div className="mt-2">
                 <Socials />
               </div>

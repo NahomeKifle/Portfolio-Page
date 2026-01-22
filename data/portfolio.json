@@ -1,6 +1,6 @@
 {
     "name": "Nahome Kifle",
-    "headerTaglineOne": "Hello 👋",
+    "headerTaglineOne": "Hello",
     "headerTaglineTwo": "I'm Nahome Kifle - curious",
     "headerTaglineThree": "designer and developer",
     "headerTaglineFour": "based in Phoenix, Arizona.",
@@ -18,51 +18,29 @@
         "id": "2",
         "title": "LinkedIn",
         "link": "https://www.linkedin.com/in/nahome-kifle/"
-      },
-      {
-        "id": "3",
-        "title": "Twitter",
-        "link": ""
-      },
-      {
-        "id": "4",
-        "title": "Blog",
-        "link": ""
-      },
-      {
-        "id": "5",
-        "title": "Email",
-        "link": "mailto:nahome1212@gmail.com"
       }
     ],
     "projects": [
       {
         "id": "1",
-        "title": "Project One",
-        "description": "Web Development",
-        "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "https://github.com/NahomeKifle"
+        "title": "TSA Wait Time & Departure Planning Backend",
+        "description": "Full Stack",
+        "imageSrc": "/images/TsaApp.avif",
+        "url": "https://github.com/NahomeKifle/TSA-tracker-app"
       },
       {
         "id": "2",
-        "title": "Project Two",
-        "description": "Data Engineering",
-        "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "https://github.com/NahomeKifle"
-      },
-      {
-        "id": "3",
-        "title": "Project Three",
-        "description": "Full Stack Development",
-        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "https://github.com/NahomeKifle"
+        "title": "Ethiopian Cultural Store",
+        "description": "Full Stack",
+        "imageSrc": "/images/Ethiopiap3.webp",
+        "url": "https://github.com/NahomeKifle/Ethiopian-Cultural-Store"
       }
     ],
     "services": [
       {
         "id": "1",
-        "title": "Full Stack Development",
-        "description": "I build complete web applications using modern technologies like React, Node.js, and cloud platforms to deliver scalable and efficient solutions."
+        "title": "Backend Engineering",
+        "description": "I design and build backend services and APIs that power internal tools and data-driven applications, with a focus on reliability, performance, and clean system design."
       },
       {
         "id": "2",
@@ -76,8 +54,8 @@
       },
       {
         "id": "4",
-        "title": "Software Consulting",
-        "description": "I provide technical guidance and mentorship, helping teams optimize their development processes and implement best practices for software engineering."
+        "title": "Full Stack Development",
+        "description": "I build complete web applications using modern technologies like React, Node.js, and cloud platforms to deliver scalable and efficient solutions."
       }
     ],
     "aboutpara": "I'm a passionate Software Engineer with expertise in full-stack development, data engineering, and cloud technologies. I love building scalable systems that solve real-world problems and improve efficiency. With experience in both enterprise environments and startup settings, I bring a unique perspective to software development. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or mentoring fellow developers.",
