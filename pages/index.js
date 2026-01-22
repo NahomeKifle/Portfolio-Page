@@ -188,9 +188,9 @@ export default function Home() {
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About</h1>
           <p className="tablet:m-10 mt-5 opacity-40 text-xl w-full laptop:w-3/5">
-            I'm a software engineer early in my career, focused on growing in ways that truly matter to me. I care deeply about building systems that have real impact and writing code that improves how people work and interact with technology.
+            I&apos;m a software engineer early in my career, focused on growing in ways that truly matter to me. I care deeply about building systems that have real impact and writing code that improves how people work and interact with technology.
             <br /><br />
-            I value being guided and mentored as I continue to learn, and I hope that when it's my turn to lead, I can leave a positive and lasting impact wherever I work. I believe that while the work we do is important, the people we support, learn from, and influence along the way matter even more—and that, ultimately, your work speaks through the lives you touch.
+            I value being guided and mentored as I continue to learn, and I hope that when it&apos;s my turn to lead, I can leave a positive and lasting impact wherever I work. I believe that while the work we do is important, the people we support, learn from, and influence along the way matter even more—and that, ultimately, your work speaks through the lives you touch.
           </p>
         </div>
         <Footer contactRef={contactRef} />
