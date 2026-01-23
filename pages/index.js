@@ -23,7 +23,6 @@ export default function Home() {
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
-  const textFour = useRef();
   const typedElement = useRef(null);
 
   // Handling Scroll
@@ -61,7 +60,7 @@ export default function Home() {
 
   useIsomorphicLayoutEffect(() => {
     stagger(
-      [textOne.current, textTwo.current, textThree.current, textFour.current],
+      [textOne.current, textTwo.current, textThree.current],
       { y: 40, x: -10, transform: "scale(0.95) skew(10deg)" },
       { y: 0, x: 0, transform: "scale(1)" }
     );
@@ -119,12 +118,6 @@ export default function Home() {
               className="text-2xl tablet:text-4xl laptop:text-4xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               And I Am A <span ref={typedElement}></span>
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-2xl tablet:text-4xl laptop:text-4xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
             </h1>
             <Socials className="mt-2 laptop:mt-5" />
           </div>
